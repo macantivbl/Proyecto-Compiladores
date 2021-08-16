@@ -1,0 +1,15 @@
+int x;
+int y;
+
+void main(){
+    while(x>4  ){
+        if(y== 6 ){
+            x= 7;
+        }else{
+            y=3;
+        }
+        x = x+1;
+    }   
+    putw(y);
+    puts("El factorial de 6 es :");
+}

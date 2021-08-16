@@ -1,0 +1,21 @@
+Lw1:CMP 4, x
+BN $5
+MOVE #0, t0
+BR $3
+MOVE #1,t0
+CMP #0, t0
+BZ Lew1
+CMP y, 6
+BZ $5
+MOVE #0, t1
+BR $3
+MOVE #1,t1
+CMP #0, t1
+BZ Le1
+BR Lei1
+Le1:Lei1:ADD x, 1
+MOVE .A, t2
+BR Lw1
+Lew1:WRINT y
+WRSTR 0
+"El factorial de 6 es :": DATA
